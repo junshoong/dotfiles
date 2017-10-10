@@ -5,11 +5,7 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 "self
-Plugin 'gmarik/Vundle.vim'
-
-"add plugin
-Plugin 'othree/html5.vim'
-"Plugin 'davidhalter/jedi-vim'
+Plugin 'VundleVim/Vundle.vim'
 
 call vundle#end()
 filetype plugin indent on
@@ -20,10 +16,6 @@ filetype plugin indent on
 " :PluginSearch foo - searches for foo; append `!` to refresh local cache
 " :PluginClean      - confirms removal of unused plugins; append `!` to
 " auto-approve removal
-
-" jedi-vim settings
-"let g:jedi#popup_on_dot = 0
-"let g:jedi#force_py_version = 3
 
 syntax on
 
