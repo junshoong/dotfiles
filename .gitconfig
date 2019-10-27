@@ -1,4 +1,6 @@
 # This is Git's per-user configuration file.
 [user]
-	name = Junshoong
+        name = Junshoong
         email = junshoong@gmail.com
+[core]
+        editor = vi
