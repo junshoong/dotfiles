@@ -1,26 +1,19 @@
-"Vundle setup
+" Plugins will be downloaded under the specified directory.
+call plug#begin('~/.vim/plugged')
+
+" Declare the list of plugins.
+Plug 'tpope/vim-sensible'
+Plug 'junegunn/seoul256.vim'
+
+" List ends here. Plugins become visible to Vim after this call.
+call plug#end()
+
+colo seoul256
+
 set nocompatible
 filetype off
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-
-"self
-Plugin 'VundleVim/Vundle.vim'
-
-call vundle#end()
 filetype plugin indent on
-
-" Brief help
-" :PluginList       - lists configured plugins
-" :PluginInstall    - installs plugins; append `!` to update or just :PluginUpdate
-" :PluginSearch foo - searches for foo; append `!` to refresh local cache
-" :PluginClean      - confirms removal of unused plugins; append `!` to
-" auto-approve removal
-
 syntax on
-
-" vim new file template (skeleton)
-au BufNewFile *.html 0r ~/.vim/html.skel
 
 set tabstop=8
 set expandtab
