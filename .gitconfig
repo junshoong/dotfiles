@@ -3,4 +3,4 @@
         name = Junshoong
         email = junshoong@gmail.com
 [core]
-        editor = vi
+        editor = vim
