@@ -1,0 +1,54 @@
+URxvt.perl-ext-common: default,matcher,resize-font,bell-command
+URxvt*font: xft:monaco:size=14
+URxvt.url-launcher: /usr/bin/xdg-open
+URxvt.matcher.button: 1
+URxvt.scrollBar: false
+URxvt.bell-command: canberra-gtk-play -i bell
+!URxvt.bell-command: notify-send "rxvt-unicode: bell!"
+
+Xft.dpi: 144
+Xft.autohint: 0
+Xft.lcdfilter: lcddefault
+Xft.hintstyle: hintfull
+Xft.hinting: 1
+Xft.antialias: 1
+Xft.rgba: rgb
+
+
+! Theme
+! special
+*.foreground:   #ffffff
+*.background:   #000000
+*.cursorColor:  #ffffff
+
+! black
+*.color0:       #182826
+*.color8:       #406c5a
+
+! red
+*.color1:       #982220
+*.color9:       #ff3a36
+
+! green
+*.color2:       #819400
+*.color10:      #ddff00
+
+! yellow
+*.color3:       #9d7700
+*.color11:      #ffc100
+
+! blue
+*.color4:       #1e6fa8
+*.color12:      #2ea9ff
+
+! magenta
+*.color5:       #535798
+*.color13:      #8d93ff
+
+! cyan
+*.color6:       #21817a
+*.color14:      #42fff1
+
+! white
+*.color7:       #8c897e
+*.color15:      #fff8e5
