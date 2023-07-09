@@ -27,6 +27,7 @@ set bg=dark
 set nu
 set hls
 auto BufEnter * let &titlestring = hostname() . " :: ". expand("%:p")
+autocmd FileType yaml setlocal ts=2 sts=2 sw=2 expandtab
 set title
 
 " set status line
@@ -36,3 +37,6 @@ set statusline+=%w%h%m%r                 " Options
 set statusline+=\ [%Y]                   " filetype
 set statusline+=\ [%{getcwd()}]          " current dir
 set statusline+=%=%-14.(%l,%c%V%)\ %p%%  " Right aligned file nav info
+
+set cursorcolumn
+set cursorline
